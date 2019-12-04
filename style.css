@@ -1,0 +1,121 @@
+body {
+  /* background-color: #163a02; */
+  background-color: #212c44;
+  color: #fff;
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin: 0 !important;
+}
+
+.header {
+  width: 100%;
+  padding: 40px 0;
+  display: flex;
+}
+
+.logo {
+  width: 650px;
+  font-size: 48px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.brush {
+  width: 30px;
+  margin-left: 20px;
+}
+
+.navbar {
+  border-bottom: 2px solid #c44403;
+}
+
+.nav-item {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.nav-item:hover {
+  background-color: #b53e07;
+  color: #c44403;
+}
+
+.nav-link {
+  font-size: 18px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 0 #c44403;
+  text-shadow: -1px 1px 0 #c44403;
+  text-shadow: -1px -1px 0 #c44403;
+  text-shadow: 1px -1px 0 #c44403;
+}
+
+.nikola-img {
+  display: grid;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  margin: 60px;
+  float: left;
+}
+
+.flexbox-container {
+  padding: 20px;
+  margin: 10px;
+}
+
+.art1 {
+  text-align: justify;
+  float: left;
+}
+
+.art2 {
+  color: #dae1e8;
+  text-align: justify;
+}
+
+.contact {
+  float: left;
+  margin-left: 60px;
+  padding: 10px;
+  text-align: left;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #c44403;
+}
+
+.footer {
+  text-align: center;
+  font-size: 15px;
+  background-color: #424c66;
+  padding: 30px;
+}
+
+.sticky {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+  align-items: center;
+  margin: 20px;
+}
+
+.grid img {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+  width: 100%;
+}
