@@ -1,1 +1,2 @@
-# Artist-Nikola-Gorovyi [https://art-horovyi.com]
+# Artist-Nikola-Gorovyi 
+[https://art-horovyi.com]
